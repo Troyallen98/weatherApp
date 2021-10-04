@@ -23,10 +23,10 @@ function backgroundImg () {
         case "scattered clouds":
         case "broken clouds":
         case "overcast clouds":
-            body.style.backgroundImage = "url('/img/cloudy.jpeg')"; 
+            document.body.style.backgroundImage = "url('/img/cloudy.jpeg')"; 
             break;
         case "clear sky":
-            body.style.backgroundImage = "url('/img/sunnyDay.jpeg')";
+            document.body.style.backgroundImage = "url('/img/sunnyDay.jpeg')";
             break;
         case "light rain":
         case "moderate rain":
@@ -47,7 +47,7 @@ function backgroundImg () {
         case "shower rain and drizzle":
         case "heavy shower rain and drizzle":
         case "shower drizzle": 
-             body.style.backgroundImage = "url('/img/rain.jpeg')";
+             document.body.style.backgroundImage = "url('/img/rain.jpeg')";
              break;
         case "light snow":
         case "Snow":
@@ -60,7 +60,7 @@ function backgroundImg () {
         case "Light shower snow":
         case "Shower snow":
         case "Heavy shower snow":
-            body.style.backgroundImage = "url('/img/snow.jpeg')";
+            document.body.style.backgroundImage = "url('/img/snow.jpeg')";
             break;
         case "thunderstorm with light rain":
         case "thunderstorm with rain":
@@ -72,10 +72,10 @@ function backgroundImg () {
         case "thunderstorm with light drizzle":
         case "thunderstorm with drizzle":
         case "thunderstorm with heavy drizzle":
-            body.style.backgroundImage = "url('/img/Lightening.jpeg')";
+            document.body.style.backgroundImage = "url('/img/Lightening.jpeg')";
             break;
         default: 
-            body.style.backgroundColor = "aqua";
+            document.body.style.backgroundColor = "aqua";
     } 
 };
 
